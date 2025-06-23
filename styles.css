@@ -160,3 +160,35 @@ footer {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.cta-section {
+    padding: 6rem 12.5%;
+}
+
+.cta-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3rem 12.5%;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.cta-banner button {
+    background-color: #3882F6;
+    border: 0.125rem solid #F9FAF8;
+    color: #F9FAF8;
+    cursor: pointer;
+}
+
+.cta-main-text {
+    font-size: 1.6rem;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.cta-secondary-text {
+    color: #E5E7EB;
+    font-weight: 450;;
+}
