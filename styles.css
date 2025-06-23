@@ -15,6 +15,7 @@ button {
     font-size: 1rem;
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
+    font-weight: bold;
 }
 
 a {
@@ -60,7 +61,6 @@ nav ul {
     color: #F9FAF8;
     border: none;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .hero-text,
@@ -82,13 +82,13 @@ nav ul {
 
 .hero-main-text {
     color: #F9FAF8;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 
 .hero-secondary-text {
     color: #E5E7EB;
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     margin: 1rem 0;
 }
 
@@ -99,4 +99,42 @@ footer {
     padding: 0.5rem 12.5%;
     font-size: 0.875rem;
     color: #E5E7EB;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 12.5% 8rem 12.5%;
+    gap: 4rem;
+}
+
+.information-main-text {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 12.5%;
+}
+
+.info-card {
+    flex: 1;
+    color: #6c757d;
+    text-align: center;
+    font-weight: 600;
+}
+
+.img-placeholder {
+    width: 100%;
+    padding-top: 100%;
+    border: 0.25rem solid #3882F6;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
 }
